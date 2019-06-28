@@ -1,0 +1,9 @@
+#site.title {
+    padding: 0 0px;
+    width: fit-content;
+}
+
+#site.describe{
+    width: fit-content;
+    color: darkgray;
+}

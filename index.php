@@ -1,45 +1,45 @@
 <html>
-  <body>
-    <div id="move_to_register">
-      <h3> 사용자 등록 테스트 </h3>
-      <a href="pstagram/web/register_test.php">사용자 등록 테스트 페이지로 이동</a>
-    </div>
+    <head>
+        <link rel = "stylesheet" type = "text/css" href="style.css">
+        <title> 랜덤 단어 생성기</title>
+    </head>
 
-    <div id="move_to_login">
-      <h3> 로그인 테스트 </h3>
-      <a href="pstagram/web/login_test.php">로그인 테스트 페이지로 이동 </a>
-    </div>
+    <body>
+        <div class = "site">
+            <div id = "title">
+                <h1> 랜덤 단어 생성기</h1>
+            </div>
 
-    <div id="move_to_lookup">
-      <h3> 사용자 조회 테스트 </h3>
-      <a href="pstagram/web/lookup_test.php">사용자 조회 테스트 페이지로 이동 </a>
-    </div>
+            <div id = "describe">
+                <h4> 창작 활동을 할 때, 아이디어가 떠오르게 도와줍니다! </h4>
+            </div>
+        </div>
 
-    <div id="move_to_review_upload">
-      <h3> 리뷰 업로드테스트 </h3>
-      <a href="pstagram/web/review_upload_test.php">리뷰 업로드 페이지로 이동</a>
-    </div>
+        <div id = "subject">
+            <div id = "name">
+                <h5> 랜덤 단어 추가<h5>
+            </div>
 
-    <div id="move_to_review_lookup">
-      <h3> 리뷰 조회 테스트 </h3>
-      <a href="pstagram/web/review_lookup_test.php">리뷰 조회 페이지로 이동</a>
-    </div>
+            <div id = "content">
+                <form name="seed" method = "POST" action = "api/add_word.php">
+                    <input type="text" name = "word" maxlength = "20">
+                    <button> 단어 추가! </button>
+                </form> 
+            </div>
 
-    <div id="move_to_category">
-      <h3> 카테고리 테스트 </h3>
-      <a href="pstagram/web/category_test.php">카테고리 테스트 페이지로 이동</a>
-    </div>
+            <div id = "name">
+                <h5> 랜덤 단어 보기 <h5>
+            </div>
+
+            <div id = "content">
+                <form name="seed" method = "POST" action = "api/see_word.php">
+                    <input type="text" name = "word" placeholder = "당신의 이름을 입력해주세요.">
+                    <button> 단어 보기! </button>
+                    <h5> 랜덤 단어는 시간마다 달라집니다. </h5>
+                </form> 
+            </div>
+        </div>
 
 
-    <div id="move_to_img_list">
-      <h3> 이미지 리스트 </h3>
-      <a href="pstagram/web/img_list.php"> 이미지 리스트 페이지로 이동 </a>
-    </div>
-    <br>
-    <br>
-    <br>
-
-    <div>Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-
+    </body>
 </html>
-
