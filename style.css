@@ -1,9 +1,23 @@
-#site.title {
+.word_board {
+    width: 80%;
+    font-size: 20%;
+    color: cadetblue;
+    border-style: groove;    
+}
+
+.title {
     padding: 0 0px;
     width: fit-content;
 }
 
-#site.describe{
+#subject.describe{
     width: fit-content;
     color: darkgray;
+}
+#subject.name{
+    width: fit-content;
+}
+
+body { 
+    text-align: center;
 }
