@@ -22,17 +22,6 @@
 
         <div id = "subject">
             <div id = "name">
-                <h5> 랜덤 단어 추가<h5>
-            </div>
-
-            <div id = "content">
-                <form name="add_word" method = "POST" action = "api/add_word.php">
-                    <input type="text" name = "word" maxlength = "20">
-                    <button> 단어 추가! </button>
-                </form> 
-            </div>
-
-            <div id = "name">
                 <h5> 랜덤 단어 보기 <h5>
             </div>
 
@@ -52,8 +41,18 @@
                 <form name="seed" method = "POST" action = "api/see_recent_word.php">
                     <button> 최근 추가 단어 보기 </button>
             </div>
-        </div>  
 
+            <div id = "name">
+                <h5> 랜덤 단어 추가<h5>
+            </div>
+
+            <div id = "content">
+                <form name="add_word" method = "POST" action = "api/add_word.php">
+                    <input type="text" name = "word" maxlength = "20">
+                    <button> 단어 추가! </button>
+                </form> 
+            </div>
+        </div>  
 
     </body>
 </html>
