@@ -1,5 +1,4 @@
 <?php
-    include_once('server_init.php');
     $sql = "SELECT COUNT(*) FROM `word`";
     $result = mysqli_query($conn,$sql);
     $row = mysqli_fetch_array($result); 

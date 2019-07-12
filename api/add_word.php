@@ -1,5 +1,5 @@
 <?php
-    include_once('../server_init.php');
+    include '../server_init.php';
     $word = $_POST['word'];
     $created_at = date("Y-m-d H:i:s");
     
