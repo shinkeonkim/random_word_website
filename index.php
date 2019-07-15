@@ -14,8 +14,7 @@
                 </div>
 
                 <div class = "content-main">
-                    <form name="seed" method = "POST" action = "api/see_word.php">
-                        <!--<input type="text" name = "name" placeholder = "당신의 이름을 입력해주세요.">-->
+                    <form action = "api/see_word.php">
                         <button> 단어 보기! </button>
                         <h5> 랜덤 단어는 시간마다 달라집니다. </h5>
                     </form> 
@@ -26,7 +25,7 @@
                 </div>
                 
                 <div class = "content-main">
-                    <form name="seed" method = "POST" action = "api/see_recent_word.php">
+                    <form action = "api/see_recent_word.php">
                         <button> 최근 추가 단어 보기 </button>
                     </form>
                 </div>
