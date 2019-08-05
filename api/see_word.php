@@ -20,6 +20,13 @@
                         ?>
                     </div>
                 </div>
+                 
+                <div id = "button_reload">
+                    <a href="javascript:self.document.location.reload()">
+                        <button class = "btn-1">새로 고침</button>
+                    </a>
+                </div>
+                
             </div>
             
             <div class ="site-tail">
